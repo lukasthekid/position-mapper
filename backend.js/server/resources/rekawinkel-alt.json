@@ -1,0 +1,1302 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 246377169,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "90",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0281126,
+              48.1798109
+            ],
+            [
+              16.0280599,
+              48.17981
+            ],
+            [
+              16.0276805,
+              48.1798
+            ],
+            [
+              16.0272191,
+              48.1798
+            ],
+            [
+              16.0268635,
+              48.1798
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 246377166,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "90",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.028298,
+              48.1797806
+            ],
+            [
+              16.0282698,
+              48.17978
+            ],
+            [
+              16.0281888,
+              48.179779
+            ],
+            [
+              16.0280974,
+              48.179778
+            ],
+            [
+              16.0279971,
+              48.179775
+            ],
+            [
+              16.0279497,
+              48.179774
+            ],
+            [
+              16.0277143,
+              48.179765
+            ],
+            [
+              16.0272107,
+              48.17976
+            ],
+            [
+              16.02686351,
+              48.17976
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863838,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "100",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0288767,
+              48.1797828
+            ],
+            [
+              16.028298,
+              48.1797806
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139038,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "crossover",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0290498,
+              48.17983
+            ],
+            [
+              16.028298,
+              48.1797806
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 178419037,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "yard",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "3b",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.029656,
+              48.1797444
+            ],
+            [
+              16.0290237,
+              48.179737
+            ],
+            [
+              16.0284945,
+              48.1797386
+            ],
+            [
+              16.0284006,
+              48.1797359
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863842,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "100",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0298124,
+              48.1798275
+            ],
+            [
+              16.0295938,
+              48.1798282
+            ],
+            [
+              16.0290498,
+              48.17983
+            ],
+            [
+              16.0285017,
+              48.1798252
+            ],
+            [
+              16.0283512,
+              48.1798197
+            ],
+            [
+              16.0281701,
+              48.179813
+            ],
+            [
+              16.0281126,
+              48.1798109
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863843,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.029656,
+              48.1797444
+            ],
+            [
+              16.0288767,
+              48.1797828
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139048,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "yard",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "4b",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0307175,
+              48.1798663
+            ],
+            [
+              16.0299643,
+              48.1798683
+            ],
+            [
+              16.0286851,
+              48.1798717
+            ],
+            [
+              16.0281155,
+              48.1798588
+            ],
+            [
+              16.0280339,
+              48.1798571
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139050,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "spur",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "6b",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0312078,
+              48.1798663
+            ],
+            [
+              16.0305961,
+              48.1799095
+            ],
+            [
+              16.0293939,
+              48.179916
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863837,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0312078,
+              48.1798663
+            ],
+            [
+              16.0307175,
+              48.1798663
+            ],
+            [
+              16.0298124,
+              48.1798275
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863840,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "100",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": "1",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0410426,
+              48.1797401
+            ],
+            [
+              16.0402089,
+              48.1797433
+            ],
+            [
+              16.0296514,
+              48.1797844
+            ],
+            [
+              16.0292426,
+              48.179786
+            ],
+            [
+              16.0288767,
+              48.1797828
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863844,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "3",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0403112,
+              48.1797067
+            ],
+            [
+              16.0402956,
+              48.1797067
+            ],
+            [
+              16.0402122,
+              48.179707
+            ],
+            [
+              16.0325071,
+              48.1797304
+            ],
+            [
+              16.0314904,
+              48.1797355
+            ],
+            [
+              16.0299748,
+              48.1797429
+            ],
+            [
+              16.029656,
+              48.1797444
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 284426834,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "100",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": "2",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.041028,
+              48.1797854
+            ],
+            [
+              16.0402534,
+              48.1797883
+            ],
+            [
+              16.0308132,
+              48.1798237
+            ],
+            [
+              16.0298124,
+              48.1798275
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139043,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "5a",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            
+            [
+              16.0392546,
+              48.1796484
+            ],
+            
+            [
+              16.0332951,
+              48.1796732
+            ],
+
+            [
+              16.0325071,
+              48.1797304
+            ]
+
+            
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 377863841,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "4",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0403015,
+              48.179821
+            ],
+            [
+              16.0402845,
+              48.1798214
+            ],
+            [
+              16.0400233,
+              48.1798273
+            ],
+            [
+              16.039876,
+              48.1798307
+            ],
+            [
+              16.0340443,
+              48.1798556
+            ],
+            [
+              16.0317466,
+              48.1798653
+            ],
+            [
+              16.0313195,
+              48.1798661
+            ],
+            [
+              16.0312078,
+              48.1798663
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 395846259,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "spur",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "6a",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            
+            [
+              16.0360043,
+              48.1800344
+            ],
+            [
+              16.0353744,
+              48.1799527
+            ],
+            [
+              16.0345337,
+              48.1798893
+            ],
+            [
+              16.0340443,
+              48.1798556
+            ]
+    
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 395846257,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "spur",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "no",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": null,
+          "wikidata": null,
+          "voltage": null,
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "6a",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+              [
+                16.036863,
+                48.1801458
+              ],
+            [
+              16.0360043,
+              48.1800344
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139046,
+          "operator": null,
+          "ref": null,
+          "name": null,
+          "railway": "disused",
+          "service": "spur",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "no",
+          "railway:bidirectional": null,
+          "railway:track_type": null,
+          "tracks": null,
+          "frequency": null,
+          "wikidata": null,
+          "voltage": null,
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "6a",
+          "disused:railway": "rail"
+        },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                
+                [
+                  16.0386402,
+                  48.1801993
+                ],
+                [
+                  16.038376,
+                  48.1802022
+                ],
+                [
+                  16.0379791,
+                  48.1802061
+                ],
+              [
+                16.0377269,
+                48.1802038
+              ],
+              [
+                  16.0374622,
+                  48.1801951
+              ],
+              [
+              16.0371647,
+              48.180175
+              ],
+                
+              [
+                16.036863,
+                48.1801458
+              ]
+
+
+
+            
+            
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139039,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "yard",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "3a",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0407449,
+              48.1796937
+            ],
+            [
+              16.0403112,
+              48.1797067
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139053,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0410426,
+              48.1797401
+            ],
+            [
+              16.0403112,
+              48.1797067
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139055,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "siding",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.041028,
+              48.1797854
+            ],
+            [
+              16.0403015,
+              48.179821
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139047,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "yard",
+          "railway:pzb": null,
+          "maxspeed": null,
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "minor",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": "4a",
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0411284,
+              48.1798318
+            ],
+            [
+              16.0407255,
+              48.1798307
+            ],
+            [
+              16.0403015,
+              48.179821
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 284426825,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "100",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0440468,
+              48.179774
+            ],
+            [
+              16.0428174,
+              48.1797763
+            ],
+            [
+              16.0425717,
+              48.1797779
+            ],
+            [
+              16.0413154,
+              48.179784
+            ],
+            [
+              16.041028,
+              48.1797854
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 162139041,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": null,
+          "name": null,
+          "railway": "rail",
+          "service": "crossover",
+          "railway:pzb": "yes",
+          "maxspeed": "60",
+          "structure_gauge": null,
+          "railway:track_class": null,
+          "passenger_lines": null,
+          "wikipedia": null,
+          "electrified": "contact_line",
+          "railway:bidirectional": null,
+          "railway:track_type": "main",
+          "tracks": null,
+          "frequency": "16.7",
+          "wikidata": null,
+          "voltage": "15000",
+          "usage": null,
+          "gauge": "1435",
+          "railway:radio": null,
+          "railway:traffic_mode": null,
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.0425717,
+              48.1797779
+            ],
+            [
+              16.0417416,
+              48.1797379
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 284426830,
+          "operator": "ÖBB-Infrastruktur AG",
+          "ref": "101 01",
+          "name": "Westbahn",
+          "railway": "rail",
+          "service": null,
+          "railway:pzb": "yes",
+          "maxspeed": "100",
+          "structure_gauge": "GC",
+          "railway:track_class": "D4",
+          "passenger_lines": "2",
+          "wikipedia": "de:Westbahn (Österreich)",
+          "electrified": "contact_line",
+          "railway:bidirectional": "regular",
+          "railway:track_type": "main",
+          "tracks": "1",
+          "frequency": "16.7",
+          "wikidata": "Q694717",
+          "voltage": "15000",
+          "usage": "main",
+          "gauge": "1435",
+          "railway:radio": "gsm-r",
+          "railway:traffic_mode": "mixed",
+          "railway:track_ref": null,
+          "disused:railway": null
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.04404681,
+              48.1797281
+            ],
+            [
+              16.0417416,
+              48.1797379
+            ],
+            [
+              16.0413109,
+              48.1797393
+            ],
+            [
+              16.0410426,
+              48.1797401
+            ]
+          ]
+        }
+      }
+    ]
+  }

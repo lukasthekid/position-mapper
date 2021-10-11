@@ -1,0 +1,266 @@
+@import 'ol.css';
+@import 'header.css';
+@import 'fontawesome-all.css';
+h3 {
+  margin: 0;
+}
+
+body {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.map {
+  height: calc(100vh - var(--headerhight));
+}
+
+.settings-header,
+.track-card-header,
+.train-card-header {
+  color: #00a99d;
+  background-color: #303030;
+  padding: 15px;
+  margin: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+}
+
+.track-info-sidebar,
+.train-info-sidebar {
+  border-radius: 15px;
+  position: absolute;
+  /* to show info on the right side */
+  /* right: 15px; */
+  /* ------------------------------ */
+  z-index: 2;
+  margin-top: 70px;
+  margin-left: 10px;
+  width: 320px;
+  /* height: 600px; */
+  background: white;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  left: -330px;
+  transition: left 0.5s;
+  box-shadow: 0 0 0.4em 0 rgb(50 50 50 / 20%);
+}
+
+.settings-sidebar {
+  /* only for design */
+  /* border-style: solid;
+  border-color: yellow; */
+  /* --------------- */
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 20px;
+  /* margin-right: 10px; */
+  width: 320px;
+  background: white;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  right: -320px;
+  transition: right 0.5s;
+  box-shadow: 0 0 0.4em 0 rgb(50 50 50 / 20%);
+}
+#train-side-card-picture {
+  height: 210px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#track-side-card-picture {
+  height: 140px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-image: url('Track\ scaled.jpg');
+  background-position: center;
+}
+
+.settings-sidebar.show {
+  z-index: 3;
+  right: 15px;
+}
+
+.train-info-sidebar.show,
+.track-info-sidebar.show {
+  z-index: 3;
+  left: 0px;
+}
+
+.track-table,
+.train-table,
+.settings-body {
+  padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+}
+
+#chevron-left,
+#chevron-right {
+  margin: auto;
+  position: absolute;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #30303060;
+  /* z-index: 10; */
+}
+#chevron-left {
+  left: 10px;
+}
+
+#chevron-right {
+  right: 10px;
+}
+
+#chevron-left:hover,
+#chevron-right:hover {
+  color: #f15a24;
+}
+
+#trapezoid {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  border-bottom: 3rem solid #00a99d;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  background-color: transparent;
+  height: 0;
+  width: 35vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: baseline;
+  color: #fff;
+}
+
+.content-wrapper {
+  color: #fff;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content-wrapper:hover .footer-symbol-text {
+  /* text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff,
+    0.5px 0.5px 0 #fff; */
+  /* color: #d4d4d4; */
+  text-decoration: underline;
+}
+
+.content-wrapper:hover i {
+  font-weight: 900;
+}
+
+.distortion-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ol-rotate {
+  display: none;
+}
+
+#center-map,
+#filter,
+#bookmark,
+#search {
+  font-size: 1.7rem;
+}
+
+.copyright {
+  float: right;
+  display: flex;
+  color: #303030;
+  display: flex;
+  position: absolute;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 1400px) {
+  #trapezoid {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  #trapezoid {
+    width: 55vw;
+  }
+}
+
+@media (max-width: 992px) {
+  #trapezoid {
+    width: 65vw;
+  }
+  .ol-attribution {
+    bottom: 4em;
+  }
+  .ol-attribution.ol-collapsed {
+    bottom: 0.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  #trapezoid {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 576px) {
+  #trapezoid {
+    width: 100vw;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+  }
+  .footer-symbol-text {
+    display: none;
+  }
+  .ol-attribution {
+    
+    bottom: 4.5em;
+  }
+  .ol-attribution.ol-collapsed {
+    bottom: 4.5em;
+  }
+
+  .content-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .content-wrapper .footer-symbol-text {
+    visibility: hidden;
+    width: 120px;
+    color: #00a99d;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .content-wrapper:hover .footer-symbol-text {
+    display: block;
+    visibility: visible;
+  }
+}

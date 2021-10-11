@@ -1,0 +1,15 @@
+[
+  { "train_id": "1116-214", "client_model": "RJ642", "ziel": "Salzburg Hbf" },
+  { "train_id": "1144-236", "client_model": "REX51", "ziel": "St.Pölten Hbf" },
+  { "train_id": "4746-029", "client_model": "S50", "ziel": "Wien Westbahnhof" },
+  {
+    "train_id": "6020-215",
+    "client_model": "S3",
+    "ziel": "Leobersdorf Bahnhof"
+  },
+  {
+    "train_id": "4124-012",
+    "client_model": "S4",
+    "ziel": "Absdorf-Hippersdorf"
+  }
+]

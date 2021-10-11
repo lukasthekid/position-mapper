@@ -1,0 +1,70 @@
+{
+    "rekawinkel":{
+        "infos":[
+            {
+                "fids":[42021, 41804],
+                "gleis": "5a",
+                "type": "Abstellgleis"
+            },
+            {
+                "fids":[42036, 41803, 42037],
+                "gleis": "3",
+                "maxspeed": 60,
+                "type": "Nebengleis"
+            },
+            {
+                "fids":[42035, 41797],
+                "gleis": "3a",
+                "type": "Abstellgleis"
+            },
+            {
+                "fids":[41817, 42128],
+                "gleis": "3b",
+                "type": "Abstellgleis"
+            },
+            {
+                "fids":[41785, 42077, 41791, 42078, 41793,
+                42076, 41815, 41811],
+                "gleis":"1",
+                "maxspeed": 100,
+                "type": "Hauptstrecke"
+
+            },
+            {
+                "fids":[41787, 41987, 41789, 41986,
+                41795, 41988, 41809, 41989, 41813],
+                "gleis":"2",
+                "maxspeed": 100,
+                "type": "Hauptstrecke"
+
+            },
+            {
+                "fids":[42002, 41801, 42003,41805],
+                "gleis":"4",
+                "maxspeed": 60,
+                "type": "Nebengleis"
+
+            },
+            {
+                "fids":[41807, 41556],
+                "gleis": "4b",
+                "type": "Abstellgleis"
+            },
+            {
+                "fids":[41799, 41572],
+                "gleis": "4a",
+                "type": "Abstellgleis"
+            },
+            {
+                "fids":[42095, 41806],
+                "gleis": "6b",
+                "type": "Nebengleis"
+            },
+            {
+                "fids":[41802, 42145],
+                "gleis": "6a",
+                "type": "Nebengleis"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+<div class='header'>
+  <div class='left-header'>
+    <div class='logo'>
+      
+    </div>
+  </div>
+  <div class='middle-header'>
+    <div class='train-station'>
+      {{this.mapService.currentMapName}}
+    </div>
+  </div>
+  <div class='right-header'>
+    <BasicDropdown as |dd|>
+      <dd.Trigger class='dropdown-menu-btn'>Betriebsstelle<span class='caret'>
+        </span></dd.Trigger>
+      <dd.Content class='dropdown-content-btn'>
+        <p {{on 'click' this.changeMap}}> Rekawinkel</p>
+        <p {{on 'click' this.changeMap}}> Stockerau</p>
+        {{!-- <p {{on 'click' this.changeMap}}> Brunn-Maria Enzersdorf</p> --}}
+      </dd.Content>
+    </BasicDropdown>
+    <span id='cog' {{on 'click' this.toggleVisibility}}>
+      <i class='fal fa-cog'></i>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<div
+  class='settings-sidebar {{if this.settingsService.sideBarIsVisible 'show'}}'
+>
+  <div class='settings-header'>
+    <h3>Einstellungen:</h3>
+    <span id='times' {{on 'click' this.settingsService.toggleVisibility}}>
+      {{fa-icon 'times'}}
+    </span>
+  </div>
+  <div class='settings-body'>
+    <div class='slidecontainer' {{on 'change' this.setIntervall}}>
+      <label for='intervall-range' class='form-label'>Zug Update Intervall [s]:
+        <span class='slider-value'>{{this.sliderValue}}</span>
+      </label>
+      <input
+        type='range'
+        custom-ticks='[1, 5, 10]'
+        value='1'
+        class='form-range'
+        min='1'
+        max='10'
+        id='intervall-range'
+        {{on 'input' this.inputChange}}
+        {{did-insert this.initInputChange}}
+      />
+    </div>
+    <div id='distortion'>
+      <label for='distortion-range' class='distortion-label'>
+        <span style='color: black' id='zoom-minus'>
+          {{fa-icon 'search-minus'}}
+        </span>Vertikale Verzerrung
+        <span style='color: black;' id='zoom-plus'>
+          {{fa-icon 'search-plus'}}
+        </span>
+      </label>
+      <input
+        type='range'
+        class='form-range'
+        value='0'
+        min='0'
+        max='3'
+        id='distortion-range'
+        steps='1'
+        {{on 'input' this.scaleMap}}
+      />
+    </div>
+  </div>
+</div>

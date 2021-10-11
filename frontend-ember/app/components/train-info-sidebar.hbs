@@ -1,0 +1,20 @@
+<div
+  class='train-info-sidebar
+    {{if this.trainInfoService.sideBarIsVisible 'show'}}'
+>
+  <div class='train-card-header'>
+    <h3>Client Informationen:</h3>
+  </div>
+  <div class='train-table'>
+    <table>
+      {{#each this.trainInfoService.popupTrainContent as |item|}}
+        <tr>
+          <td>{{item.key}}</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>{{item.value}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </div>
+  <div id='train-side-card-picture'></div>
+</div>

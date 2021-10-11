@@ -1,0 +1,19 @@
+<div
+  class='track-info-sidebar {{if this.tracksService.sideBarIsVisible 'show'}}'
+>
+  <div class='track-card-header'>
+    <h3>Gleis Informationen:</h3>
+  </div>
+  <div class='track-table'>
+    <table class='uk-table uk-table-striped'>
+      {{#each this.tracksService.popupTrackContent as |item|}}
+        <tr>
+          <td>{{item.key}}</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>{{item.value}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </div>
+  <div id='track-side-card-picture'></div>
+</div>

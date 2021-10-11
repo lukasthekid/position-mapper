@@ -1,0 +1,141 @@
+:root {
+  --headerhight: 70px;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: var(--headerhight);
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: #00a99d;
+  align-items: center;
+  box-shadow: 0 0 0.5em 0 rgb(50 50 50 / 20%);
+}
+
+.header .left-header {
+  display: flex;
+  /* justify-content: flex-start; */
+  width: 33%;
+}
+
+.header .middle-header {
+  display: flex;
+  width: 34%;
+  cursor: default;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #303030;
+}
+
+.header .right-header {
+  display: flex;
+  justify-content: flex-end;
+  width: 33%;
+}
+
+.logo {
+  color: rgba(255, 255, 255, 1);
+  font-size: 2em;
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+.slider-value {
+  display: inline-block;
+  width: 10px;
+}
+
+@media (max-width: 6000px) {
+}
+
+.dropdown-menu-btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  border-style: solid;
+  border-color: #303030;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 20px;
+  font-size: 1em;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.dropdown-menu-btn:focus,
+.dropdown-menu-btn:hover {
+  background-color: #d4d4d4;
+}
+
+.dropdown-content-btn {
+  border-style: solid;
+  border-color: #303030;
+  border-width: 2px;
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
+  padding: 5px;
+  margin: 2px 0 0;
+}
+
+.dropdown-content-btn p {
+  padding: 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+/* .dropdown-content-btn p:hover {
+  cursor: pointer;
+  color: #00a99d;
+} */
+.caret {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin: 3px;
+  margin-left: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#times {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+#times:hover {
+  color: #d4d4d4;
+}
+
+#cog {
+  font-size: 2rem;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#cog:hover i {
+  font-weight: 900;
+}
